@@ -14,6 +14,8 @@ $git clone git@github.com:patrickfatrick/orchid-theme-sublime.git
 ```
 Move the file into your Application Support/Sublime Text/Packages/User folder, restart the editor and select the color scheme.
 
+Or use Package Control and search for "orchid-theme-sublime".
+
 ## Theme Colors
 
 ![Colors](./images/orchid-theme-colors.png)

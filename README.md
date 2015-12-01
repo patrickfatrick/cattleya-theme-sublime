@@ -1,9 +1,9 @@
-The Orchid color scheme for Sublime
+The Orchid Color Scheme for Sublime
 =========
 
 Based on the original theme made for Brackets, found [here](https://github.com/patrickfatrick/orchid-theme).
 
-This theme is intended to be pleasant but still easy to read. It's mostly designed to be used in HTML, CSS/SCSS, and ES6 Javascript (using [JavascriptNext](https://github.com/Benvie/JavaScriptNext.tmLanguage)).
+This color scheme is intended to be pleasant but still easy to read. It's mostly designed to be used in HTML, CSS/SCSS, and ES6 Javascript (using [JavascriptNext](https://github.com/Benvie/JavaScriptNext.tmLanguage)).
 
 The font used in the screenshots is Monaco, in case you're curious.
 
@@ -32,6 +32,6 @@ Move the file into your Application Support/Sublime Text/Packages/User folder, r
 
 ![Orchid Theme in a JS file](./images/orchid-sublime-js.png)
 
-## Markdown (Markdown Extended)
+## Markdown (with Markdown Extended)
 
 ![Orchid Theme in a JS file](./images/orchid-sublime-js.png)

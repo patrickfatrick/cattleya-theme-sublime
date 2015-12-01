@@ -35,4 +35,4 @@ Or use Package Control and search for "orchid-theme-sublime".
 
 ### Markdown (with Markdown Extended)
 
-![Orchid Theme in a JS file](./images/orchid-sublime-js.png)
+![Orchid Theme in a Markdown file](./images/orchid-sublime-markdown.png)

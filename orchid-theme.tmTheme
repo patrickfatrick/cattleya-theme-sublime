@@ -8,7 +8,7 @@
   <key>name</key>
   <string>Orchid Theme</string>
   <key>semanticClass</key>
-  <string>theme.dark.orchid_theme</string>
+  <string>theme.dark.orchid-theme</string>
   <key>colorSpaceName</key>
   <string>sRGB</string>
   <key>settings</key>
@@ -39,7 +39,7 @@
         <key>shadow</key>
         <string>#00000010</string>  
         <key>sidebar_container</key>
-        <string>#00000010</string>        
+        <string>#00000010</string>     
       </dict>
     </dict>
     <dict>
@@ -1190,6 +1190,33 @@ meta.property-value support.constant.named-color.css</string>
         <key>foreground</key>
         <string>#FFAED</string>
       </dict>
+    </dict>
+    <!-- BracketsHighlighter Styles -->
+    <dict>
+      <key>name</key>
+      <string>Bracket Default</string>
+      <key>scope</key>
+      <string>brackethighlighter.orchid</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFFAED</string>
+        <key>background</key>
+        <string>#DA70D6</string>
+      </dict>
+    </dict>
+    <dict>
+        <key>name</key>
+        <string>Bracket Unmatched</string>
+        <key>scope</key>
+        <string>brackethighlighter.orchidUnmatched</string>
+        <key>settings</key>
+        <dict>
+            <key>foreground</key>
+            <string>#FFFAED</string>
+            <key>background</key>
+            <string>#E84D49</string>
+        </dict>
     </dict>
   </array>
   <key>uuid</key>

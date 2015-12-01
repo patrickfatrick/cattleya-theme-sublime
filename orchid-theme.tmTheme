@@ -332,7 +332,7 @@ meta.function-call, support.function, keyword.other.special-method, meta.block-l
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FFFAED</string>
+        <string>#00B0FF</string>
       </dict>
     </dict>
     <dict>

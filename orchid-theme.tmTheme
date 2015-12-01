@@ -19,7 +19,7 @@
         <key>background</key>
         <string>#080808</string>    
         <key>caret</key>
-        <string>#c0c5ce</string>
+        <string>#FFFAED</string>
         <key>foreground</key>
         <string>#FFFAED</string>
         <key>invisibles</key>
@@ -155,7 +155,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#00FFFF</string>
+        <string>#FF9A69</string>
       </dict>
     </dict>
     <dict>
@@ -251,8 +251,29 @@ meta.function-call, support.function, keyword.other.special-method, meta.block-l
       <key>name</key>
       <string>Support</string>
       <key>scope</key>
-      <string>support.function,
-keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.php, punctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, meta.function-call meta.function-call.arguments variable.parameter.function, text.html.markdown meta.paragraph meta.link.inline, text.html.markdown meta.paragraph meta.link.inline punctuation.definition.string.begin.markdown, text.html.markdown meta.paragraph meta.link.inline punctuation.definition.string.end.markdown</string>
+      <string>support.function, keyword.operator, constant.other.color, meta.function-call meta.function-call.arguments variable.parameter.function</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFFAED</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Support</string>
+      <key>scope</key>
+      <string>support.function</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFFAED</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Tags</string>
+      <key>scope</key>
+      <string>meta.tag, punctuation.definition.tag, punctuation.separator.inheritance.phppunctuation.definition.tag.html, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -395,7 +416,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
     </dict>
     <dict>
       <key>name</key>
-      <string>Bold</string>
+      <string>Markdown: Bold</string>
       <key>scope</key>
       <string>markup.bold, punctuation.definition.bold</string>
       <key>settings</key>
@@ -403,12 +424,12 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
         <key>fontStyle</key>
         <string>bold</string>
         <key>foreground</key>
-        <string>#ffcb6b</string>
+        <string>#63E87F</string>
       </dict>
     </dict>
     <dict>
       <key>name</key>
-      <string>Italic</string>
+      <string>Markdown: Italic</string>
       <key>scope</key>
       <string>markup.italic, punctuation.definition.italic</string>
       <key>settings</key>
@@ -416,29 +437,53 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
         <key>fontStyle</key>
         <string>italic</string>
         <key>foreground</key>
-        <string>#c792eaff</string>
+        <string>#DA70D6</string>
       </dict>
     </dict>
     <dict>
       <key>name</key>
-      <string>Code</string>
+      <string>Markdown: Code</string>
       <key>scope</key>
       <string>markup.raw.inline</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#f1e655</string>
+        <string>#B28773</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markdown: Fenced Bode Block</string>
+      <key>scope</key>
+      <string>punctuation.definition.fenced.markdown, variable.language.fenced.markdown</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#B28773</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Markdown: Fenced Language</string>
+      <key>scope</key>
+      <string>variable.language.fenced.markdown</string>
+      <key>settings</key>
+      <dict>
+        <key>fontStyle</key>
+        <string></string>
+        <key>foreground</key>
+        <string>#B28773</string>
       </dict>
     </dict>
     <dict>
       <key>name</key>
       <string>Link Text</string>
       <key>scope</key>
-      <string>string.other.link, punctuation.definition.string.end.markdown</string>
+      <string>string.other.link, punctuation.definition.string.end.markdown, text.html.markdown meta.paragraph meta.link.inline, text.html.markdown meta.paragraph meta.link.inline punctuation.definition.string.begin.markdown, text.html.markdown meta.paragraph meta.link.inline punctuation.definition.string.end.markdown</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#ff5370</string>
+        <string>#00B0FF</string>
       </dict>
     </dict>
     <dict>
@@ -460,7 +505,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#ff5370ff</string>
+        <string>#FF9A69</string>
       </dict>
     </dict>
     <dict>
@@ -495,7 +540,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#F1E655</string>
+        <string>#63E87F</string>
       </dict>
     </dict>
     <dict>
@@ -506,7 +551,7 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#ff5370ff</string>
+        <string>#E84D49</string>
       </dict>
     </dict>
     <dict>
@@ -540,7 +585,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#80CBC4</string>
+        <string>#FF9A69</string>
       </dict>
     </dict>
     <dict>
@@ -551,7 +596,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#80CBC4</string>
+        <string>#FF9A69</string>
       </dict>
     </dict>
     <dict>
@@ -787,7 +832,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#5C7E8C</string>
+        <string>#B28773</string>
       </dict>
     </dict>
     <dict>
@@ -810,6 +855,8 @@ meta.property-value support.constant.named-color.css</string>
       <dict>
         <key>foreground</key>
         <string>#63E87F</string>
+        <key>fontStyle</key>
+        <string>normal</string>
       </dict>
     </dict>
     <dict>
@@ -821,20 +868,19 @@ meta.property-value support.constant.named-color.css</string>
       <dict>
         <key>foreground</key>
         <string>#B28773</string>
+        <key>fontStyle</key>
+        <string>italic</string>
       </dict>
     </dict>
     <dict>
       <key>name</key>
       <string>Styles Units</string>
       <key>scope</key>
-      <string>source.css keyword.other.unit,
-source.less keyword.other.unit,
-source.scss keyword.other.unit,
-source.sass keyword.other.unit</string>
+      <string>source.css keyword.other.unit, source.less keyword.other.unit, source.scss keyword.other.unit, source.sass keyword.other.unit</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#00FFFF</string>
+        <string>#00B0FF</string>
       </dict>
     </dict>
     <dict>

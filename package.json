@@ -1,0 +1,12 @@
+{
+  "title": "Orchid Theme for Sublime",
+  "name": "orchid-theme-sublime",
+  "description": "Orchid theme for Sublime",
+  "version": "0.1.0",
+  "author": "Patrick Fricano <patrick.fricano@icloud.com> (http://github.com/patrickfatrick)",
+  "homepage": "https://github.com/patrickfatrick/orchid-theme-sublime",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/patrickfatrick/orchid-theme-sublime.git"
+  }
+}

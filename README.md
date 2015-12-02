@@ -40,7 +40,7 @@ Or use Package Control and search for "orchid-theme-sublime".
 
 ### BracketHighlighter
 
-I've also included styles that can be used to override [BrackHighlighter's](https://github.com/facelessuser/BracketHighlighter) defaults for bracket matching. In your bh_core.sublime-settings file you'll want to specify the bracket styles pointing to the brackethighlighter.orchid and the brackethighlighter.orchidUnmatched scopes, like so:
+I've also included styles that can be used to override [BracketHighlighter's](https://github.com/facelessuser/BracketHighlighter) defaults for bracket matching. In your bh_core.sublime-settings file you'll want to specify the bracket styles pointing to the brackethighlighter.orchid and the brackethighlighter.orchidUnmatched scopes, like so:
 
 ```json
 "default": {

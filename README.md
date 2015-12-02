@@ -11,6 +11,7 @@ The font used in the screenshots is Monaco, in case you're curious.
 ```bash
 $git clone git@github.com:patrickfatrick/orchid-theme-sublime.git
 ```
+
 Move the file into your Application Support/Sublime Text/Packages/User folder, restart the editor and select the color scheme.
 
 Or use Package Control and search for "orchid-theme-sublime".
@@ -36,3 +37,24 @@ Or use Package Control and search for "orchid-theme-sublime".
 ### Markdown (with Markdown Extended)
 
 ![Orchid Theme in a Markdown file](./images/orchid-sublime-markdown.png)
+
+### BracketHighlighter
+
+I've also included styles that can be used to override [BrackHighlighter's](https://github.com/facelessuser/BracketHighlighter) defaults for bracket matching. In your bh_core.sublime-settings file you'll want to specify the bracket styles pointing to the brackethighlighter.orchid and the brackethighlighter.orchidUnmatched scopes, like so:
+
+```json
+"default": {
+	"icon": "dot",
+	"color": "brackethighlighter.orchid",
+	"style": "solid"
+},
+"unmatched": {
+	"icon": "question",
+	"color": "brackethighlighter.orchidUnmatched",
+	"style": "solid"
+}
+```
+
+The final result will look something like this (assuming you set all of the bracket options to point to the brackethighlighter.orchid scope).
+
+![Matching Brackets](./images/orchid-sublime-brackets.png)

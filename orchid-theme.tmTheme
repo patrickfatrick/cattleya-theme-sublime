@@ -42,7 +42,7 @@
         <string>#00000010</string>     
       </dict>
     </dict>
-    <dict>
+    <!-- <dict>
       <key>name</key>
       <string>Text</string>
       <key>scope</key>
@@ -52,7 +52,7 @@
         <key>foreground</key>
         <string>#FFDAA5</string>
       </dict>
-    </dict>
+    </dict> -->
     <dict>
       <key>name</key>
       <string>Text</string>
@@ -162,7 +162,18 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FF9A69</string>
+        <string>#FFDAA5</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>constant object key</string>
+      <key>scope</key>
+      <string>meta.property.object.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#63E87F</string>
       </dict>
     </dict>
     <dict>
@@ -170,6 +181,17 @@
       <string>js variable readwrite</string>
       <key>scope</key>
       <string>meta.initialization, variable.other.readwrite.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFDAA5</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Function arg</string>
+      <key>scope</key>
+      <string>meta.function.argument, variable.parameter, meta.parens.c</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -928,11 +950,11 @@ meta.property-value support.constant.named-color.css</string>
       <key>name</key>
       <string>variable.language.js</string>
       <key>scope</key>
-      <string>variable.language.this.js, variable.language.arguments.js, variable.language.super.js, variable.language.proto.js, variable.language.constructor.js, variable.language.prototype.js</string>
+      <string>variable.language.this.js, variable.language.arguments.js, variable.language.super.js, variable.language.proto.js, variable.language.constructor.js, variable.language.prototype.js, support.type.object.dom.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#DA70D6</string>
+        <string>#FF9A69</string>
       </dict>
     </dict>
     <!-- ES6 module keywords -->

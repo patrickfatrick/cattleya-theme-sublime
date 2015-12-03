@@ -798,6 +798,7 @@ meta.property-value support.constant.named-color.css</string>
         <string>#ffffffff</string>
       </dict>
     </dict>
+    <!-- GitGutter colors -->
     <dict>
       <key>name</key>
       <string>GitGutter deleted</string>
@@ -806,7 +807,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#EC5F67</string>
+        <string>#E84D49</string>
       </dict>
     </dict>
     <dict>
@@ -817,7 +818,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#FFCF1B</string>
+        <string>#00B0FF</string>
       </dict>
     </dict>
     <dict>
@@ -828,7 +829,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#C3E88D</string>
+        <string>#63E87F</string>
       </dict>
     </dict>
     <dict>
@@ -839,7 +840,18 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#546E7A</string>
+        <string>#B28773</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>GitGutter untracked</string>
+      <key>scope</key>
+      <string>markup.untracked.git_gutter</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#B28773</string>
       </dict>
     </dict>
     <dict>

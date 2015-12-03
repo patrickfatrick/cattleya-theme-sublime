@@ -957,6 +957,28 @@ meta.property-value support.constant.named-color.css</string>
         <string>#FF9A69</string>
       </dict>
     </dict>
+    <dict>
+      <key>name</key>
+      <string>Support</string>
+      <key>scope</key>
+      <string>support</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#DA70D6</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>support.function</string>
+      <key>scope</key>
+      <string>support.function</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#63E87F</string>
+      </dict>
+    </dict>
     <!-- ES6 module keywords -->
     <dict>
       <key>name</key>

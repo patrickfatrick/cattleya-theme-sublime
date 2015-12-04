@@ -42,17 +42,6 @@
         <string>#00000010</string>     
       </dict>
     </dict>
-    <!-- <dict>
-      <key>name</key>
-      <string>Text</string>
-      <key>scope</key>
-      <string>variable.parameter.function</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#FFDAA5</string>
-      </dict>
-    </dict> -->
     <dict>
       <key>name</key>
       <string>Text</string>
@@ -701,7 +690,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#ff4941</string>
+        <string>#E84D49</string>
         <key>foreground</key>
         <string>#ffffffff</string>
       </dict>
@@ -714,7 +703,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#ff4941</string>
+        <string>#E84D49</string>
       </dict>
     </dict>
     <dict>

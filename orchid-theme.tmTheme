@@ -156,6 +156,17 @@
     </dict>
     <dict>
       <key>name</key>
+      <string>js object</string>
+      <key>scope</key>
+      <string>variable.other.property.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#63E87F</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
       <string>constant object key</string>
       <key>scope</key>
       <string>meta.property.object.js</string>
@@ -192,7 +203,7 @@
       <string>Functions</string>
       <key>scope</key>
       <string>entity.name.function, meta.require, support.function.any-method,
-meta.function-call, support.function, keyword.other.special-method, meta.block-level</string>
+meta.function-call, support.function, keyword.other.special-method, meta.block-level, variable.function.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -214,7 +225,7 @@ meta.function-call, support.function, keyword.other.special-method, meta.block-l
       <key>name</key>
       <string>instance constructor</string>
       <key>scope</key>
-      <string>meta.instance.constructor</string>
+      <string>meta.instance.constructor, variable.function.constructor.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>

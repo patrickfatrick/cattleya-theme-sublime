@@ -147,7 +147,7 @@
       <key>name</key>
       <string>js object</string>
       <key>scope</key>
-      <string>variable.other.property.js, string.unquoted.label.js</string>
+      <string>variable.other.property.js, string.unquoted.label.js, entity.name.label.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>

@@ -214,7 +214,7 @@ meta.function-call, support.function, keyword.other.special-method, meta.block-l
       <key>name</key>
       <string>Classes</string>
       <key>scope</key>
-      <string>support.class, entity.name.class, entity.name.type.class</string>
+      <string>support.class, entity.name.class, entity.name.type.class, variable.type.js, support.class.builtin.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -1024,6 +1024,28 @@ meta.property-value support.constant.named-color.css</string>
       <dict>
         <key>foreground</key>
         <string>#82B1FF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>meta.function.anonymous.js</string>
+      <key>scope</key>
+      <string>meta.function.anonymous.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#DA70D6</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>keyword.other.accessor.js</string>
+      <key>scope</key>
+      <string>keyword.other.accessor.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFFAED</string>
       </dict>
     </dict>
     <!-- JSON -->

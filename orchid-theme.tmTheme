@@ -81,7 +81,7 @@
       <key>name</key>
       <string>Punctuation</string>
       <key>scope</key>
-      <string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array, meta.instance.constructor.js</string>
+      <string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array, meta.instance.constructor.js, punctuation.separator.key-value.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -114,11 +114,22 @@
       <key>name</key>
       <string>Operators</string>
       <key>scope</key>
-      <string>keyword.operator</string>
+      <string>keyword.operator, keyword.operator.comparison</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
         <string>#00FFFF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>Logical Operators</string>
+      <key>scope</key>
+      <string>keyword.operator.logical</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#DA70D6</string>
       </dict>
     </dict>
     <dict>

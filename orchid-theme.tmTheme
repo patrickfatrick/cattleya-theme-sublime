@@ -158,7 +158,7 @@
       <key>name</key>
       <string>js object</string>
       <key>scope</key>
-      <string>variable.other.object.js, meta.property.object.js</string>
+      <string>variable.other.object.js, meta.property.object.js, variable.other.property.static.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -214,7 +214,7 @@ meta.function-call, support.function, keyword.other.special-method, meta.block-l
       <key>name</key>
       <string>Classes</string>
       <key>scope</key>
-      <string>support.class, entity.name.class, entity.name.type.class, variable.type.js, support.class.builtin.js</string>
+      <string>support.class, entity.name.class, entity.name.type.class, variable.type.js, support.class.builtin.js, variable.other.class.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>

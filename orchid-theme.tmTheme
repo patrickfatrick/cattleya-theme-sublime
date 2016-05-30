@@ -962,7 +962,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>name</key>
       <string>variable.language.js</string>
       <key>scope</key>
-      <string>variable.language.this.js, variable.language.arguments.js, variable.language.super.js, variable.language.proto.js, variable.language.constructor.js, variable.language.prototype.js, support.type.object.dom.js</string>
+      <string>variable.language.this.js, variable.language.arguments.js, variable.language.super.js, variable.language.proto.js, variable.language.constructor.js, variable.language.prototype.js, support.type.object.dom.js, meta.property.object.dollar.js, variable.other.dollar.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>

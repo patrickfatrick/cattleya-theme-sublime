@@ -81,7 +81,7 @@
       <key>name</key>
       <string>Punctuation</string>
       <key>scope</key>
-      <string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array</string>
+      <string>punctuation.definition.string, punctuation.definition.variable, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array, meta.instance.constructor.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -147,18 +147,7 @@
       <key>name</key>
       <string>js object</string>
       <key>scope</key>
-      <string>variable.other.object.js</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#FFDAA5</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>js object</string>
-      <key>scope</key>
-      <string>variable.other.property.js</string>
+      <string>variable.other.property.js, string.unquoted.label.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -167,9 +156,20 @@
     </dict>
     <dict>
       <key>name</key>
+      <string>js object</string>
+      <key>scope</key>
+      <string>variable.other.object.js, meta.property.object.js</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FFDAA5</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
       <string>constant object key</string>
       <key>scope</key>
-      <string>meta.property.object.js</string>
+      <string>meta.property.object, meta.object-literal.key.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>

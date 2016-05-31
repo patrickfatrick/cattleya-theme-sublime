@@ -225,11 +225,22 @@ meta.function-call, support.function, keyword.other.special-method, meta.block-l
       <key>name</key>
       <string>Classes</string>
       <key>scope</key>
-      <string>support.class, entity.name.class, entity.name.type.class, variable.type.js, support.class.builtin.js, variable.other.class.js, keyword.operator.class.php</string>
+      <string>support.class, entity.name.class, entity.name.type.class, variable.type.js, support.class.builtin.js, variable.other.class.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
         <string>#00FFFF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>PHP Class Accessors</string>
+      <key>scope</key>
+      <string>keyword.operator.class.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#DA70D6</string>
       </dict>
     </dict>
     <dict>

@@ -915,9 +915,31 @@ meta.property-value support.constant.named-color.css</string>
     </dict>
     <dict>
       <key>name</key>
+      <string>CSS: Var keyword</string>
+      <key>scope</key>
+      <string>support.function.var.css</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#DA70D6</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>CSS: Var name</string>
+      <key>scope</key>
+      <string>support.type.property-name.custom.css, support.constant.custom-media-query-name.css, variable.parameter.postcss</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#FF9A69</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
       <string>Styles Units</string>
       <key>scope</key>
-      <string>source.css keyword.other.unit, source.less keyword.other.unit, source.scss keyword.other.unit, source.sass keyword.other.unit</string>
+      <string>source.css keyword.other.unit, source.less keyword.other.unit, source.scss keyword.other.unit, source.sass keyword.other.unit, keyword.other.unit.css.postcss</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>

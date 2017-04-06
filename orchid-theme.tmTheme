@@ -167,9 +167,9 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>js object</string>
+      <string>js object (also php)</string>
       <key>scope</key>
-      <string>variable.other.object.js, meta.property.object.js, variable.other.property.static.js</string>
+      <string>variable.other.property.php, variable.other.object.js, meta.property.object.js, variable.other.property.static.js</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -214,7 +214,7 @@
       <string>Functions</string>
       <key>scope</key>
       <string>entity.name.function, meta.require, support.function.any-method,
-meta.function-call, support.function, keyword.other.special-method, meta.block-level, variable.function.js</string>
+meta.function-call, support.function, keyword.other.special-method, meta.block-level, variable.function</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -230,6 +230,17 @@ meta.function-call, support.function, keyword.other.special-method, meta.block-l
       <dict>
         <key>foreground</key>
         <string>#00FFFF</string>
+      </dict>
+    </dict>
+    <dict>
+      <key>name</key>
+      <string>PHP Class Accessors</string>
+      <key>scope</key>
+      <string>keyword.operator.class.php</string>
+      <key>settings</key>
+      <dict>
+        <key>foreground</key>
+        <string>#DA70D6</string>
       </dict>
     </dict>
     <dict>
@@ -995,7 +1006,7 @@ meta.property-value support.constant.named-color.css</string>
       <key>name</key>
       <string>variable.language.js</string>
       <key>scope</key>
-      <string>variable.language.this.js, variable.language.arguments.js, variable.language.super.js, variable.language.proto.js, variable.language.constructor.js, variable.language.prototype.js, support.type.object.dom.js, meta.property.object.dollar.js, variable.other.dollar.js</string>
+      <string>variable.language.this.js, variable.language.arguments.js, variable.language.super.js, variable.language.proto.js, variable.language.constructor.js, variable.language.prototype.js, support.type.object.dom.js, meta.property.object.dollar.js, variable.other.dollar.js, punctuation.definition.variable.php</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>

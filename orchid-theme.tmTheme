@@ -147,7 +147,7 @@
       <key>name</key>
       <string>Variables</string>
       <key>scope</key>
-      <string>variable, variable.other.constant, variable.other.readwrite.alias, variable.other.readwrite.instance, variable.other.readwrite.class, meta.definition.variable variable.other.readwrite</string>
+      <string>variable, variable.other.constant, variable.other.readwrite.alias, variable.other.readwrite.instance, variable.other.readwrite.class, meta.definition.variable variable.other.readwrite, meta.constant, entity.name.type.constant</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>

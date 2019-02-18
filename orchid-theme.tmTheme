@@ -257,7 +257,7 @@
       <key>name</key>
       <string>Storage</string>
       <key>scope</key>
-      <string>storage</string>
+      <string>storage, storage.type.accessor</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -853,22 +853,11 @@ meta.property-value support.constant.named-color.css</string>
       <key>name</key>
       <string>entity.name.method.js</string>
       <key>scope</key>
-      <string>entity.name.method.js</string>
+      <string>entity.name.method.js, entity.name.accessor</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
         <string>#63E87F</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>entity.name.accessor.js</string>
-      <key>scope</key>
-      <string>entity.name.accessor.js</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#82B1FF</string>
       </dict>
     </dict>
     <dict>

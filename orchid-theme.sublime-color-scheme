@@ -310,6 +310,30 @@
             "foreground": "var(redish)"
         },
         {
+            "name": "incremental diff.deleted",
+            "scope": "diff.deleted",
+            "background": "#A83732",
+            "foreground": "var(whitish)"
+        },
+        {
+            "name": "incremental diff.deleted.char",
+            "scope": "diff.deleted.char",
+            "background": "#702820",
+            "foreground": "var(whitish)"
+        },
+        {
+            "name": "incremental diff.inserted",
+            "scope": "diff.inserted",
+            "background": "#37A832",
+            "foreground": "var(whitish)"
+        },
+        {
+            "name": "incremental diff.inserted.char",
+            "scope": "diff.inserted.char",
+            "background": "#287020",
+            "foreground": "var(whitish)"
+        },
+        {
             "name": "Changed",
             "scope": "markup.changed",
             "foreground": "#c792eaff"

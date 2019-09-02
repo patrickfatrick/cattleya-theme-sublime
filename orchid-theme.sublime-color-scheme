@@ -432,7 +432,7 @@
         },
         {
             "name": "keyword.operator.js",
-            "scope": "keyword.operator.module.js, keyword.operator.new.js, support.class.console, storage.type.function.arrow, storage.type.function.coffee, storage.type.class.coffee, storage.type.class.jsdoc, storage.type.class, storage.type.extends, storage.type.annotation.java",
+            "scope": "keyword.operator.module.js, keyword.operator.new.js, support.class.console, storage.type.function.arrow, storage.type.function.coffee, storage.type.class.coffee, storage.type.class.jsdoc, storage.type.class, storage.type.extends, storage.type.annotation.java, storage.type.interface, storage.type.namespace, storage.type.function, storage.type.ts",
             "foreground": "var(purplish)"
         },
         {

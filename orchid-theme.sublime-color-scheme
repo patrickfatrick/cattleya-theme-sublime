@@ -138,7 +138,7 @@
         },
         {
             "name": "Functions",
-            "scope": "entity.name.function, meta.require, support.function.any-method, support.function, meta.block-level, variable.function, meta.method.body.java meta.method.java",
+            "scope": "entity.name.function, meta.require, support.function.any-method, support.function, meta.block-level, variable.function, meta.method.body.java meta.method.java, variable.language.super.js",
             "foreground": "var(greenish)"
         },
         {
@@ -416,8 +416,8 @@
             "foreground": "#F77669"
         },
         {
-            "name": "variable.language.js",
-            "scope": "variable.language.this.js, variable.language.arguments.js, variable.language.super.js, variable.language.proto.js, variable.language.constructor.js, variable.language.prototype.js, support.type.object.dom.js, meta.property.object.dollar.js, variable.other.dollar.js, punctuation.definition.variable",
+            "name": "Special variables",
+            "scope": "variable.language.this, variable.language.arguments, variable.language.proto, variable.language.constructor, variable.language.prototype, support.type.object.dom, meta.property.object.dollar, variable.other.dollar, punctuation.definition.variable, constant.language.null, constant.language.undefined",
             "foreground": "var(orangish)"
         },
         {
@@ -454,6 +454,11 @@
             "name": "String Templates",
             "scope": "meta.template.expression, punctuation.definition.template-expression, punctuation.quasi.element",
             "foreground": "var(purplish)"
+        },
+        {
+            "name": "Object literal keys",
+            "scope": "constant.other.object.key, meta.object-literal.key",
+            "foreground": "var(bluish)"
         },
         {
             "name": "JSON property top",

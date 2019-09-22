@@ -133,7 +133,7 @@
         },
         {
             "name": "Objects",
-            "scope": "variable.other.property, variable.other.readwrite, meta.property.object, support.variable.property, variable.other, meta.object-literal.key, support.variable.property.dom, variable.other.object.property, meta.method.body.java meta.method-call.java, meta.method.body.java",
+            "scope": "variable.other.property, variable.other.readwrite, meta.property.object, support.variable.property, variable.other, meta.object-literal.key, support.variable.property.dom, variable.other.object.property, meta.method.body.java meta.method-call.java, meta.method.body.java, support.variable.property",
             "foreground": "var(yellowish)"
         },
         {
@@ -170,16 +170,6 @@
             "name": "Storage",
             "scope": "storage, storage.type.accessor",
             "foreground": "var(purplish)"
-        },
-        {
-            "name": "Support",
-            "scope": "support.function, keyword.operator.dereference, constant.other.color",
-            "foreground": "var(whitish)"
-        },
-        {
-            "name": "Support",
-            "scope": "support.function, support.variable.property",
-            "foreground": "var(whitish)"
         },
         {
             "name": "Tags",

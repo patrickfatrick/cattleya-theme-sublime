@@ -178,7 +178,7 @@
         },
         {
             "name": "Strings, Inherited Class",
-            "scope": "string, punctuation.definition.quasi, punctuation.definition.string, constant.other.symbol, entity.other.inherited-class",
+            "scope": "string, punctuation.definition.quasi, punctuation.definition.string, constant.other.symbol, entity.other.inherited-class, string.quoted.single",
             "foreground": "var(bluish)"
         },
         {

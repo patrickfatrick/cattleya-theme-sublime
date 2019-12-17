@@ -113,7 +113,7 @@
         },
         {
             "name": "Keywords",
-            "scope": "keyword, keyword punctuation",
+            "scope": "keyword, keyword punctuation, punctuation.accessor.optional",
             "foreground": "var(purplish)"
         },
         {
@@ -168,7 +168,7 @@
         },
         {
             "name": "Storage",
-            "scope": "storage, storage.type.accessor",
+            "scope": "storage, storage.type.accessor, punctuation.accessor",
             "foreground": "var(purplish)"
         },
         {
@@ -407,7 +407,7 @@
         },
         {
             "name": "Special variables",
-            "scope": "variable.language.this, variable.language.arguments, variable.language.proto, variable.language.constructor, variable.language.prototype, support.type.object.dom, meta.property.object.dollar, variable.other.dollar, punctuation.definition.variable, constant.language.null, constant.language.undefined",
+            "scope": "variable.language.this, variable.language.arguments, variable.language.proto, variable.language.constructor, variable.language.prototype, support.type.object.dom, meta.property.object.dollar, variable.other.dollar, punctuation.definition.variable, constant.language.null, constant.language.undefined, keyword.operator.expression.void",
             "foreground": "var(orangish)"
         },
         {
@@ -421,7 +421,7 @@
             "foreground": "var(greenish)"
         },
         {
-            "name": "keyword.operator.js",
+            "name": "Keywords",
             "scope": "keyword.operator.module.js, keyword.operator.new.js, support.class.console, storage.type.function.arrow, storage.type.function.coffee, storage.type.class.coffee, storage.type.class.jsdoc, storage.type.class, storage.type.extends, storage.type.annotation.java, storage.type.interface, storage.type.namespace, storage.type.function, storage.type.enum, storage.type.ts",
             "foreground": "var(purplish)"
         },
@@ -442,7 +442,7 @@
         },
         {
             "name": "String Templates",
-            "scope": "meta.template.expression, punctuation.definition.template-expression, punctuation.quasi.element",
+            "scope": "punctuation.definition.template-expression, punctuation.quasi.element, punctuation.definition.string.template",
             "foreground": "var(purplish)"
         },
         {

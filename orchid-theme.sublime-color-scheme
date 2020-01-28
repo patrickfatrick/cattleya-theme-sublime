@@ -374,6 +374,11 @@
             "foreground": "var(bluish)"
         },
         {
+            "name": "CSS: important",
+            "scope": "keyword.other.important.css",
+            "foreground": "var(redish)"
+        },
+        {
             "name": "Special variables",
             "scope": "variable.language.this, variable.language.arguments, variable.language.proto, variable.language.constructor, variable.language.prototype, support.type.object.dom, meta.property.object.dollar, variable.other.dollar, punctuation.definition.variable, constant.language.null, constant.language.undefined, keyword.operator.expression.void",
             "foreground": "var(cyanish)"

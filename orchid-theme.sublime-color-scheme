@@ -339,16 +339,14 @@
             "foreground": "#FFEB95"
         },
         {
-            "name": "CSS: Property-name",
-            "scope": "support.type.property-name",
-            "foreground": "var(greenish)",
-            "font_style": "normal"
+            "name": "CSS: Attribute name",
+            "scope": "entity.other.attribute-name.class",
+            "foreground": "var(orangish)"
         },
         {
-            "name": "CSS: Prefix",
-            "scope": "meta.property-list meta.property-name",
-            "foreground": "var(brownish)",
-            "font_style": "italic"
+            "name": "CSS: Property name",
+            "scope": "support.type.property-name",
+            "foreground": "var(yellowish)"
         },
         {
             "name": "CSS: Var keyword",
@@ -366,24 +364,14 @@
             "foreground": "var(bluish)"
         },
         {
-            "name": "LESS: mixins",
-            "scope": "entity.other.less.mixin",
-            "foreground": "#7986CB"
+            "name": "CSS: Pseudo-selectors and functions",
+            "scope": "source.postcss support.function.name, source.css support.function.name, source.postcss entity.other.attribute-name.pseudo-class, source.css entity.other.attribute-name.pseudo-class",
+            "foreground": "var(greenish)"
         },
         {
             "name": "CSS: #",
             "scope": "constant.other.color.rgb-value punctuation.definition.constant",
             "foreground": "var(bluish)"
-        },
-        {
-            "name": "CSS: Attribute selector value",
-            "scope": "meta.attribute-selector string.unquoted.attribute-value",
-            "foreground": "#C3E88D"
-        },
-        {
-            "name": "CSS: Attribute selector name",
-            "scope": "meta.attribute-selector entity.other.attribute-name.attribute",
-            "foreground": "#F77669"
         },
         {
             "name": "Special variables",

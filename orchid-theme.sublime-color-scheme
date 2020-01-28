@@ -71,11 +71,6 @@
             "foreground": "var(purplish)"
         },
         {
-            "name": "Text",
-            "scope": "variable.parameter.property",
-            "foreground": "var(yellowish)"
-        },
-        {
             "name": "Comments",
             "scope": "comment, punctuation.definition.comment, punctuation.whitespace.comment.trailing",
             "foreground": "var(brownish)",
@@ -85,11 +80,6 @@
             "name": "Text and Source Base Colors",
             "scope": "text, source",
             "foreground": "var(whitish)"
-        },
-        {
-            "name": "Text and Source Base Color Override",
-            "scope": "source.ruby",
-            "foreground": "var(yellowish)"
         },
         {
             "name": "Punctuation",
@@ -118,7 +108,7 @@
         },
         {
             "name": "Variables",
-            "scope": "variable, variable.other.constant, variable.other.readwrite.alias, variable.other.readwrite.instance, variable.other.readwrite.class, meta.definition.variable variable.other.readwrite, meta.constant, entity.name.type.constant",
+            "scope": "variable, variable.other.constant, variable.other.readwrite, variable.other.readwrite.alias, variable.other.readwrite.instance, variable.other.readwrite.class, meta.definition.variable variable.other.readwrite, meta.constant, entity.name.type.constant, variable.other.object",
             "foreground": "var(orangish)"
         },
         {
@@ -130,11 +120,6 @@
             "name": "js object",
             "scope": "tring.unquoted.label.js, entity.name.label.js",
             "foreground": "var(greenish)"
-        },
-        {
-            "name": "Objects",
-            "scope": "variable.other.property, variable.other.readwrite, meta.property.object, support.variable.property, variable.other, meta.object-literal.key, support.variable.property.dom, variable.other.object.property, meta.method.body.java meta.method-call.java, meta.method.body.java, support.variable.property",
-            "foreground": "var(yellowish)"
         },
         {
             "name": "Functions",
@@ -205,11 +190,6 @@
             "name": "Tags",
             "scope": "entity.name.tag",
             "foreground": "var(purplish)"
-        },
-        {
-            "name": "Attributes",
-            "scope": "entity.other.attribute-name",
-            "foreground": "var(yellowish)"
         },
         {
             "name": "Attribute IDs",
@@ -408,7 +388,7 @@
         {
             "name": "Special variables",
             "scope": "variable.language.this, variable.language.arguments, variable.language.proto, variable.language.constructor, variable.language.prototype, support.type.object.dom, meta.property.object.dollar, variable.other.dollar, punctuation.definition.variable, constant.language.null, constant.language.undefined, keyword.operator.expression.void",
-            "foreground": "var(orangish)"
+            "foreground": "var(cyanish)"
         },
         {
             "name": "Support",
@@ -447,13 +427,13 @@
         },
         {
             "name": "Object literal keys",
-            "scope": "constant.other.object.key, meta.object-literal.key",
-            "foreground": "var(bluish)"
+            "scope": "constant.other.object.key, constant.other.object.key string.unquoted.label, meta.object-literal.key, meta.property.object, meta.property.object variable.other.object",
+            "foreground": "var(yellowish)"
         },
         {
-            "name": "JSON property top",
-            "scope": "meta.structure.dictionary.key.json string.quoted.double.json, support.type.property-name, punctuation.support.type.property-name, entity.name.tag.yaml, meta.structure.dictionary.key.json punctuation.definition.string.begin.json, meta.structure.dictionary.key.json punctuation.definition.string.end.json",
-            "foreground": "var(yellowish)"
+            "name": "JSON key",
+            "scope": "meta.mapping.key.json string.quoted.double.json, meta.mapping.key.json string.quoted.double.json punctuation.definition.string.begin.json, meta.mapping.key.json string.quoted.double.json punctuation.definition.string.end.json",
+            "foreground": "var(yellowish)",
         },
         {
             "name": "JSON value",

@@ -415,7 +415,7 @@
         },
         {
             "name": "String Templates",
-            "scope": "punctuation.definition.template-expression, punctuation.quasi.element, punctuation.definition.string.template",
+            "scope": "punctuation.definition.template-expression, punctuation.quasi.element, punctuation.definition.string.template, keyword.other.template.begin, keyword.other.template.end, string.interpolated keyword.other.substitution.begin, string.interpolated keyword.other.substitution.end",
             "foreground": "var(purplish)"
         },
         {

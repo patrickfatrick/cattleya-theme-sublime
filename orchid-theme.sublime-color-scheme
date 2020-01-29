@@ -339,6 +339,11 @@
             "foreground": "#FFEB95"
         },
         {
+            "name": "HTML: attributes",
+            "scope": "entity.other.attribute-name",
+            "foreground": "var(yellowish)"
+        },
+        {
             "name": "CSS: Attribute name",
             "scope": "entity.other.attribute-name.class",
             "foreground": "var(orangish)"

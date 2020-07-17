@@ -83,7 +83,7 @@
         },
         {
             "name": "Punctuation",
-            "scope": "punctuation, punctuation.definition.string, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array, meta.instance.constructor.js, punctuation.separator.key-value.js, punctuation.definition.method-parameters.begin, punctuation.definition.method-parameters.end, punctuation.terminator, meta.brace, meta.group.braces, keyword.operator",
+            "scope": "punctuation, punctuation.definition.string, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array, meta.instance.constructor.js, punctuation.separator.key-value.js, punctuation.definition.method-parameters.begin, punctuation.definition.method-parameters.end, punctuation.terminator, meta.brace, meta.group.braces, keyword.operator, keyword.operator.type.annotation",
             "foreground": "var(whitish)"
         },
         {
@@ -128,7 +128,7 @@
         },
         {
             "name": "Classes",
-            "scope": "support.class, entity.name.class, entity.name.type.class, variable.type, support.class.builtin, variable.other.class, entity.name.type, storage.type, storage.modifier.import, support.constant.math",
+            "scope": "support.class, entity.name.class, entity.name.type.class, variable.type, support.class.builtin, variable.other.class, entity.name.type, storage.type, storage.modifier.import, support.constant.math, support.constant.json",
             "foreground": "var(cyanish)"
         },
         {
@@ -425,7 +425,7 @@
         },
         {
             "name": "Object literal keys",
-            "scope": "constant.other.object.key, constant.other.object.key string.unquoted.label, meta.object-literal.key, meta.property.object, meta.property.object variable.other.object",
+            "scope": "constant.other.object.key, constant.other.object.key string.unquoted.label, meta.object-literal.key, meta.property.object, meta.property.object variable.other.object, variable.other.object.property, support.variable.property.dom, variable.other.property, meta.definition.property variable.object.property",
             "foreground": "var(yellowish)"
         },
         {

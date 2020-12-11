@@ -107,6 +107,12 @@
             "foreground": "var(purplish)"
         },
         {
+            "name": "Control Keywords",
+            "scope": "keyword.control, keyword.operator.module",
+            "foreground": "var(purplish)",
+            "font_style": "italic"
+        },
+        {
             "name": "Variables",
             "scope": "variable, variable.other.constant, variable.other.readwrite, variable.other.readwrite.alias, variable.other.readwrite.instance, variable.other.readwrite.class, meta.definition.variable variable.other.readwrite, meta.constant, entity.name.type.constant, variable.other.object",
             "foreground": "var(orangish)"
@@ -128,7 +134,7 @@
         },
         {
             "name": "Classes",
-            "scope": "support.class, entity.name.class, entity.name.type.class, variable.type, support.class.builtin, variable.other.class, entity.name.type, storage.type, storage.modifier.import, support.constant.math, support.constant.json",
+            "scope": "support.class, entity.name.class, entity.name.type.class, variable.type, support.class.builtin, variable.other.class, entity.name.type, storage.modifier.import, support.constant.math, support.constant.json",
             "foreground": "var(cyanish)"
         },
         {
@@ -149,11 +155,6 @@
         {
             "name": "Methods",
             "scope": "keyword.other.special-method",
-            "foreground": "var(purplish)"
-        },
-        {
-            "name": "Storage",
-            "scope": "storage, storage.type.accessor, punctuation.accessor",
             "foreground": "var(purplish)"
         },
         {
@@ -386,7 +387,8 @@
         {
             "name": "Special variables",
             "scope": "variable.language.this, variable.language.arguments, variable.language.proto, variable.language.constructor, variable.language.prototype, support.type.object.dom, meta.property.object.dollar, variable.other.dollar, punctuation.definition.variable, constant.language.null, constant.language.undefined, keyword.operator.expression.void",
-            "foreground": "var(cyanish)"
+            "foreground": "var(cyanish)",
+            "font_style": "italic"
         },
         {
             "name": "Support",
@@ -394,28 +396,18 @@
             "foreground": "var(purplish)"
         },
         {
-            "name": "support.function",
-            "scope": "support.function",
-            "foreground": "var(greenish)"
-        },
-        {
-            "name": "Keywords",
-            "scope": "keyword.operator.module.js, keyword.operator.new.js, support.class.console, storage.type.function.arrow, storage.type.function.coffee, storage.type.class.coffee, storage.type.class.jsdoc, storage.type.class, storage.type.extends, storage.type.annotation.java, storage.type.interface, storage.type.namespace, storage.type.function, storage.type.enum, storage.type.ts, storage.type.tsx",
+            "name": "Storage Keywords",
+            "scope": "meta.function.anonymous, keyword.operator.new, storage.type, storage, storage.type.accessor, punctuation.accessor, support.class.console",
             "foreground": "var(purplish)"
         },
         {
-            "name": "entity.name.method.js",
-            "scope": "entity.name.method.js, entity.name.accessor",
+            "name": "entity.name.method",
+            "scope": "entity.name.method, entity.name.accessor",
             "foreground": "var(greenish)"
         },
         {
-            "name": "meta.function.anonymous.js",
-            "scope": "meta.function.anonymous.js, storage.type.js, storage.type.function.js",
-            "foreground": "var(purplish)"
-        },
-        {
-            "name": "keyword.other.accessor.js",
-            "scope": "keyword.other.accessor.js",
+            "name": "keyword.other.accessor",
+            "scope": "keyword.other.accessor",
             "foreground": "var(whitish)"
         },
         {

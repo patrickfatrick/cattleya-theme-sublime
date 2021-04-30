@@ -83,7 +83,7 @@
         },
         {
             "name": "Punctuation",
-            "scope": "punctuation, punctuation.definition.string, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array, meta.instance.constructor.js, punctuation.separator.key-value.js, punctuation.definition.method-parameters.begin, punctuation.definition.method-parameters.end, punctuation.terminator, meta.brace, meta.group.braces, keyword.operator, keyword.operator.type.annotation",
+            "scope": "punctuation, punctuation.definition.string, punctuation.definition.string, punctuation.definition.parameters, punctuation.definition.string, punctuation.definition.array, meta.instance.constructor.js, punctuation.separator.key-value.js, punctuation.definition.method-parameters.begin, punctuation.definition.method-parameters.end, punctuation.terminator, meta.brace, meta.group.braces, keyword.operator, keyword.operator.type.annotation, meta.interpolation punctuation.section, meta.interpolation punctuation.separator",
             "foreground": "var(whitish)"
         },
         {
@@ -129,12 +129,12 @@
         },
         {
             "name": "Functions",
-            "scope": "entity.name.function, meta.require, support.function.any-method, support.function, meta.block-level, variable.function, meta.method.body.java meta.method.java, variable.language.super.js",
+            "scope": "entity.name.function, meta.require, support.function.any-method, support.function, meta.block-level, variable.function, meta.method.body.java meta.method.java, variable.language.super.js, meta.function-call variable.function",
             "foreground": "var(greenish)"
         },
         {
             "name": "Classes",
-            "scope": "support.class, entity.name.class, entity.name.type.class, variable.type, support.class.builtin, variable.other.class, entity.name.type, storage.modifier.import, support.constant.math, support.constant.json",
+            "scope": "support.class, entity.name.class, entity.name.type.class, variable.type, support.class.builtin, variable.other.class, entity.name.type, storage.modifier.import, support.constant.math, support.constant.json, meta.interpolation source.js.embedded meta.function-call.method source.class",
             "foreground": "var(cyanish)"
         },
         {
@@ -164,7 +164,7 @@
         },
         {
             "name": "Strings, Inherited Class",
-            "scope": "string, punctuation.definition.quasi, punctuation.definition.string, constant.other.symbol, entity.other.inherited-class, string.quoted.single",
+            "scope": "string, punctuation.definition.quasi, punctuation.definition.string, constant.other.symbol, entity.other.inherited-class, string.quoted.single, string.quoted.other",
             "foreground": "var(bluish)"
         },
         {
@@ -302,7 +302,7 @@
         },
         {
             "name": "Embedded",
-            "scope": "punctuation.section.embedded, punctuation.section.embedded.begin, punctuation.section.embedded.end, punctuation.section.embedded.end source, variable.interpolation",
+            "scope": "punctuation.section.embedded, punctuation.section.embedded.begin, punctuation.section.embedded.end, punctuation.section.embedded.end source, variable.interpolation, meta.interpolation punctuation.definition.interpolation, meta.interpolation punctuation.section.interpolation",
             "foreground": "var(purplish)"
         },
         {
@@ -417,7 +417,7 @@
         },
         {
             "name": "Object literal keys",
-            "scope": "constant.other.object.key, constant.other.object.key string.unquoted.label, meta.object-literal.key, meta.property.object, meta.property.object variable.other.object, variable.other.object.property, support.variable.property.dom, variable.other.property, meta.definition.property variable.object.property",
+            "scope": "constant.other.object.key, constant.other.object.key string.unquoted.label, meta.object-literal.key, meta.property.object, meta.property.object variable.other.object, variable.other.object.property, support.variable.property.dom, variable.other.property, meta.definition.property variable.object.property, meta.mapping.key string.unquoted, meta.binding.destructuring.mapping meta.mapping.key",
             "foreground": "var(yellowish)"
         },
         {

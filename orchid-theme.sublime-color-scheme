@@ -134,7 +134,7 @@
         },
         {
             "name": "Classes",
-            "scope": "support.class, entity.name.class, entity.name.type.class, variable.type, support.class.builtin, variable.other.class, entity.name.type, storage.modifier.import, support.constant.math, support.constant.json, meta.interpolation source.js.embedded meta.function-call.method source.class",
+            "scope": "support.class, entity.name.class, entity.name.type.class, variable.type, support.class.builtin, variable.other.class, entity.name.type, storage.modifier.import, support.constant.math, support.constant.json, meta.interpolation source.js.embedded meta.function-call.method source.class, support.constant",
             "foreground": "var(cyanish)"
         },
         {

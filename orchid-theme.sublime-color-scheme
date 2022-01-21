@@ -135,7 +135,7 @@
         },
         {
             "name": "Classes",
-            "scope": "support.class, entity.name.class, entity.name.type.class, variable.type, support.class.builtin, variable.other.class, entity.name.type, storage.modifier.import, support.constant.math, support.constant.json, meta.interpolation source.js.embedded meta.function-call.method source.class, support.constant",
+            "scope": "support.class, entity.name.class, entity.name.type.class, variable.type, support.class.builtin, variable.other.class, entity.name.type, storage.modifier.import, support.constant.math, support.constant.json, meta.interpolation source.js.embedded meta.function-call.method source.class, support.constant, entity.other.inherited-class",
             "foreground": "var(cyanish)",
         },
         {
@@ -164,8 +164,8 @@
             "foreground": "var(purplish)",
         },
         {
-            "name": "Strings, Inherited Class",
-            "scope": "string, punctuation.definition.quasi, punctuation.definition.string, constant.other.symbol, entity.other.inherited-class, string.quoted.single, string.quoted.other",
+            "name": "Strings",
+            "scope": "string, punctuation.definition.quasi, punctuation.definition.string, constant.other.symbol, string.quoted.single, string.quoted.other",
             "foreground": "var(bluish)",
         },
         {

@@ -78,7 +78,7 @@
         },
         {
             "name": "Text and Source Base Colors",
-            "scope": "text, source",
+            "scope": "text, source, meta.jsx.children",
             "foreground": "var(whitish)",
         },
         {

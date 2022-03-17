@@ -135,7 +135,7 @@
         },
         {
             "name": "Classes",
-            "scope": "support.class, entity.name.class, entity.name.type.class, variable.type, support.class.builtin, variable.other.class, entity.name.type, storage.modifier.import, support.constant.math, support.constant.json, meta.interpolation source.js.embedded meta.function-call.method source.class, support.constant, entity.other.inherited-class, entity.name.interface, meta.tag.name entity.name.tag",
+            "scope": "support.class, entity.name.class, entity.name.type.class, variable.type, support.class.builtin, variable.other.class, entity.name.type, storage.modifier.import, support.constant.math, support.constant.json, meta.interpolation source.js.embedded meta.function-call.method source.class, support.constant, entity.other.inherited-class, entity.name.interface, entity.name.enum, meta.tag.name entity.name.tag",
             "foreground": "var(cyanish)",
         },
         {

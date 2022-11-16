@@ -1,42 +1,38 @@
-# The Orchid Color Scheme for Sublime
+# Cattleya (kăt′lē-ə) Color Scheme for Sublime Text
 
-Based on the original theme made for Brackets, found [here](https://github.com/patrickfatrick/orchid-theme).
-
-This color scheme is intended to be pleasant but still easy to read. It's mostly designed to be used in HTML, CSS/SCSS, and ES6 Javascript (using [JavascriptNext](https://github.com/Benvie/JavaScriptNext.tmLanguage)).
-
-The font used in the screenshots is Monaco, in case you're curious.
+**Cattleya** (formerly orchid) is a color scheme for [Sublime Text](https://sublimetext.com) that aims to be one you can look at all day. It's contrasty, it's fun, it uses syntax grammars to their fullest (mostly JS and TS since that's what I spend the most time looking at). Note: I'm new Nova and this extension is still a work-in-progress.
 
 ## Installation
 
 ```bash
-$git clone git@github.com:patrickfatrick/orchid-theme-sublime.git
+$git clone git@github.com:patrickfatrick/cattleya-theme-sublime.git
 ```
 
 Move the file into your Application Support/Sublime Text/Packages/User folder, restart the editor and select the color scheme.
 
-Or use Package Control and search for "orchid-theme-sublime".
+Or use Package Control and search for "cattleya-theme-sublime".
 
 ### Theme Colors
 
-![Colors](./images/orchid-theme-colors.png)
+![Colors](./images/cattleya-colors.png)
 
 `#FF9A69` `#B28773` `#262626` `#FFDAA5` `#E84D49` `#DA70D6` `#63E87F` `#FFFAED` `#00B0FF` `#00FFFF`
 
 ### CSS/SCSS 
 
-![Orchid Theme in a CSS file](./images/orchid-sublime-css.png)
+![Cattleya Theme in a CSS file](./images/cattleya-sublime-css.png)
 
 ### HTML
 
-![Orchid Theme in an HTML file](./images/orchid-sublime-html.png)
+![Cattleya Theme in an HTML file](./images/cattleya-sublime-html.png)
 
 ### JavaScript (with JavascriptNext)
 
-![Orchid Theme in a JS file](./images/orchid-sublime-js.png)
+![Cattleya Theme in a JS file](./images/cattleya-sublime-js.png)
 
 ### Markdown (with Markdown Extended)
 
-![Orchid Theme in a Markdown file](./images/orchid-sublime-markdown.png)
+![Cattleya Theme in a Markdown file](./images/cattleya-sublime-markdown.png)
 
 ### BracketHighlighter
 
@@ -57,4 +53,10 @@ I've also included styles that can be used to override [BracketHighlighter's](ht
 
 The final result will look something like this (assuming you set all of the bracket options to point to the brackethighlighter.orchid scope).
 
-![Matching Brackets](./images/orchid-sublime-brackets.png)
+![Matching Brackets](./images/cattleya-sublime-brackets.png)
+
+#### What's in a name?
+
+Years ago I created a theme for Adobe's Brackets editor called "orchid". The name was inspired by a gorgeous purple color used prominently within the theme (#DA70D6, aka ["orchid"](https://en.wikipedia.org/wiki/Orchid_(color))). Since then, as I've moved to other code editors, I've adapted and improved on this theme for whichever editor I'm using at any given moment. I hadn't really given the name much thought since I originally created it. As I'm now working on bringing this theme to nova I'm now considering the name again, and I've landed on "cattleya" because it's an evocative name which harkens back to the original, cattleya being a genus within the orchid family.
+
+![cattleya](./images/cattleya.png)
